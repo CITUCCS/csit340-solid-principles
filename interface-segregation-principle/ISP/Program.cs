@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ISP
+﻿namespace ISP
 {
     class Program
     {
         static void Main(string[] args)
         {
             ILandVehicle car = new Car();
-            //car.Drive();
-            
+            car.Drive();
+            // car.Fly(); <--- now impossible
 
             IAirVehicle airplane = new Airplane();
             IAirVehicle jet = new Jet();
-            //airplane.Fly();
+            airplane.Fly();
+            jet.Fly();
 
             IHybridVehicle vehicle = new MultiFunctionalCar(car, jet);
             vehicle.Fly();

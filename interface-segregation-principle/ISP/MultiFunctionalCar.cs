@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ISP
+﻿namespace ISP
 {
     public class MultiFunctionalCar : IHybridVehicle
     {
