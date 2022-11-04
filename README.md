@@ -1,1 +1,1 @@
-# empty-template
+# SOLID PRINCIPLES
