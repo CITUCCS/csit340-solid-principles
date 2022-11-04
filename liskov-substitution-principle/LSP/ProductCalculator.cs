@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace LSP
+﻿namespace LSP
 {
     public class ProductCalculator: Calculator
     {
