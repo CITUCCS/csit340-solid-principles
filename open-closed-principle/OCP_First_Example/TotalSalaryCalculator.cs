@@ -1,7 +1,7 @@
-﻿using OCP_First_Example.SalaryCalculators;
+﻿using OCP.SalaryCalculators;
 using System.Collections.Generic;
 
-namespace OCP_First_Example
+namespace OCP
 {
     public class TotalSalaryCalculator
     {

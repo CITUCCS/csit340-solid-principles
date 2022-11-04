@@ -1,5 +1,5 @@
-﻿using OCP_First_Example;
-using OCP_First_Example.SalaryCalculators;
+﻿using OCP;
+using OCP.SalaryCalculators;
 using System;
 using System.Collections.Generic;
 
